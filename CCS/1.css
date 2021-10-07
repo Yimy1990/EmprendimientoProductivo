@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+video {
+    position: fixed;
+    
+    min-width: 100%;
+    min-height: 100%;
+    
+    top: 50%;
+    left: 50%;
+    
+    transform: translateX(-50%) translateY(-50%);
+    
+    z-index: -10;
+    
+}
+main {
+    width: 40%;
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+    padding: 10px;
+    margin: 1.5%;
+}
